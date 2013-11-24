@@ -1,0 +1,9 @@
+<%= @pizzas.each do |pizza| %>
+  <div class = "stolen-frosty span6 offset4 text-center">
+
+    <h1 class = stolen-h1><%= pizza.name %></h1>
+    <h2><%= pizza.lat %></h2>
+    <h2><%= pizza.lng %></h2>
+  </div>
+    <br />
+<% end %>
